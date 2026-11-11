@@ -1,0 +1,142 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="380"
+     viewBox="0 0 1200 380">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070B16"/>
+      <stop offset="55%" stop-color="#101C35"/>
+      <stop offset="100%" stop-color="#092B35"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity=".25"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none"
+            stroke="#64748B" stroke-opacity=".12" stroke-width="1"/>
+    </pattern>
+
+    <filter id="shadow">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="380" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="380" rx="20" fill="url(#grid)"/>
+
+  <!-- Ambient glow -->
+  <circle cx="920" cy="180" r="220" fill="url(#glow)"/>
+
+  <!-- Decorative top labels -->
+  <text x="55" y="48" fill="#00E5FF"
+        font-family="monospace" font-size="13"
+        letter-spacing="3">PRAGA-925 // DIGITAL WORKSPACE</text>
+
+  <circle cx="1110" cy="43" r="5" fill="#34D399"/>
+  <text x="1125" y="48" fill="#34D399"
+        font-family="monospace" font-size="12">ONLINE</text>
+
+  <!-- Left content -->
+  <text x="58" y="135" fill="#FFFFFF"
+        font-family="Arial, sans-serif"
+        font-size="43" font-weight="bold">
+    PRAGATISHVAR A.
+  </text>
+
+  <rect x="60" y="157" width="90" height="3" rx="2"
+        fill="url(#accent)"/>
+
+  <text x="58" y="205" fill="#00E5FF"
+        font-family="monospace" font-size="20">
+    AI / ML &amp; CYBERSECURITY
+  </text>
+
+  <text x="58" y="237" fill="#A5B4C8"
+        font-family="Arial, sans-serif" font-size="16">
+    Exploring intelligent and secure systems.
+  </text>
+
+  <text x="58" y="265" fill="#A5B4C8"
+        font-family="Arial, sans-serif" font-size="16">
+    Building practical software solutions.
+  </text>
+
+  <!-- Terminal strip -->
+  <rect x="58" y="300" width="480" height="43"
+        rx="8" fill="#020817" stroke="#1E3A52"/>
+
+  <circle cx="78" cy="321" r="5" fill="#34D399"/>
+  <text x="95" y="326" fill="#34D399"
+        font-family="monospace" font-size="13">
+    $ learn() &amp;&amp; build() &amp;&amp; secure()
+  </text>
+
+  <!-- Network illustration -->
+  <g stroke="#00E5FF" stroke-width="1.7"
+     stroke-opacity=".65" fill="none">
+
+    <path d="M720 110 L830 65 L930 120 L1040 70 L1120 145"/>
+    <path d="M720 110 L760 220 L875 275 L930 120"/>
+    <path d="M930 120 L1010 235 L1120 145"/>
+    <path d="M830 65 L875 275"/>
+    <path d="M760 220 L650 285 L875 275"/>
+    <path d="M1010 235 L1120 290"/>
+    <path d="M1040 70 L1010 235"/>
+    <path d="M650 285 L720 110"/>
+    <path d="M875 275 L1120 290"/>
+  </g>
+
+  <!-- Network glow nodes -->
+  <g fill="#00E5FF" opacity=".25" filter="url(#shadow)">
+    <circle cx="720" cy="110" r="18"/>
+    <circle cx="830" cy="65" r="18"/>
+    <circle cx="930" cy="120" r="20"/>
+    <circle cx="1040" cy="70" r="18"/>
+    <circle cx="1120" cy="145" r="18"/>
+    <circle cx="760" cy="220" r="18"/>
+    <circle cx="875" cy="275" r="18"/>
+    <circle cx="1010" cy="235" r="18"/>
+  </g>
+
+  <!-- Nodes -->
+  <g fill="#0D2034" stroke="#00E5FF" stroke-width="2">
+    <circle cx="720" cy="110" r="8"/>
+    <circle cx="830" cy="65" r="8"/>
+    <circle cx="930" cy="120" r="12"/>
+    <circle cx="1040" cy="70" r="8"/>
+    <circle cx="1120" cy="145" r="8"/>
+    <circle cx="760" cy="220" r="8"/>
+    <circle cx="875" cy="275" r="8"/>
+    <circle cx="1010" cy="235" r="8"/>
+    <circle cx="650" cy="285" r="6"/>
+    <circle cx="1120" cy="290" r="6"/>
+  </g>
+
+  <!-- Central security node -->
+  <circle cx="930" cy="120" r="27"
+          fill="#00E5FF" fill-opacity=".08"
+          stroke="#34D399" stroke-width="1.5"/>
+
+  <path d="M930 105 L943 110 V120
+           C943 130 936 137 930 140
+           C924 137 917 130 917 120 V110 Z"
+        fill="none" stroke="#34D399" stroke-width="2"/>
+
+  <!-- Footer -->
+  <text x="720" y="350" fill="#64748B"
+        font-family="monospace" font-size="11"
+        letter-spacing="2">
+    AI // SECURITY // DEVELOPMENT // INNOVATION
+  </text>
+
+</svg>
