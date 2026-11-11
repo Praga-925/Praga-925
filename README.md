@@ -4,24 +4,28 @@
 <!-- DESIGN: CYBER DASHBOARD / AI / MACHINE LEARNING            -->
 <!-- ========================================================= -->
 
-<!-- ===================== HERO ============================== -->
+<!-- CUSTOM HERO -->
+<p align="center">
+  <img
+    src="./assets/hero-network.svg"
+    width="100%"
+    alt="Pragatishvar AI and Cybersecurity Developer Banner"
+  />
+</p>
 
-<div align="center">
+<!-- TYPING INTRO -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=17&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=650&lines=AI%2FML+Enthusiast;Cybersecurity+Explorer;Python+Developer;Building+Intelligent+Systems" />
+</p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:080D19,45:101B35,100:173D69&height=190&section=header&text=PRAGATISHVAR%20A.&fontSize=43&fontColor=EAFBFF&animation=fadeIn&fontAlignY=36&desc=AI%2FML%20%7C%20CYBERSECURITY%20%7C%20PYTHON%20DEVELOPER&descSize=14&descAlignY=59&descColor=00E5FF"/>
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=3000&pause=900&color=00E5FF&center=true&vCenter=true&width=650&lines=Initializing+developer+profile...;Exploring+Artificial+Intelligence+%26+ML;Learning+Cybersecurity+%26+Threat+Detection;Building+Intelligent+Software+Solutions;Welcome+to+my+digital+workspace."/>
-
-<br/>
-
-<img src="https://img.shields.io/badge/FOCUS-AI%20%2F%20ML-00E5FF?style=flat-square&labelColor=101B35"/>
-<img src="https://img.shields.io/badge/INTEREST-CYBERSECURITY-A78BFA?style=flat-square&labelColor=101B35"/>
-<img src="https://img.shields.io/badge/BUILD-PYTHON-34D399?style=flat-square&labelColor=101B35"/>
-<img src="https://img.shields.io/badge/STATUS-LEARNING-FBBF24?style=flat-square&labelColor=101B35"/>
-
-</div>
-
----
+<!-- CUSTOM DASHBOARD -->
+<p align="center">
+  <img
+    src="./assets/dashboard.svg"
+    width="100%"
+    alt="AI, Cybersecurity and Development Dashboard"
+  />
+</p>
 
 <!-- ===================== TERMINAL ========================== -->
 
