@@ -1,0 +1,133 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1100" height="310"
+     viewBox="0 0 1100 310">
+
+  <defs>
+    <linearGradient id="panelbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1425"/>
+      <stop offset="100%" stop-color="#111E35"/>
+    </linearGradient>
+
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C084FC"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1100" height="310" rx="18"
+        fill="url(#panelbg)" stroke="#263B57"/>
+
+  <!-- Header -->
+  <text x="30" y="40" fill="#00E5FF"
+        font-family="monospace" font-size="14"
+        letter-spacing="2">DEVELOPER CONTROL CENTER</text>
+
+  <text x="1060" y="40" fill="#64748B"
+        font-family="monospace" font-size="11"
+        text-anchor="end">PRAGA-925 / OVERVIEW</text>
+
+  <path d="M30 58H1070" stroke="#263B57"/>
+
+  <!-- Card 1 -->
+  <rect x="30" y="80" width="330" height="145"
+        rx="12" fill="#101D31" stroke="#164E63"/>
+
+  <rect x="30" y="80" width="4" height="145"
+        rx="2" fill="url(#cyan)"/>
+
+  <circle cx="85" cy="140" r="33"
+          fill="#00E5FF" fill-opacity=".10"
+          stroke="#00E5FF" stroke-width="2"/>
+
+  <text x="85" y="147" text-anchor="middle"
+        fill="#00E5FF" font-family="monospace"
+        font-size="19" font-weight="bold">AI</text>
+
+  <text x="135" y="127" fill="#E2E8F0"
+        font-family="Arial" font-size="18"
+        font-weight="bold">ARTIFICIAL INTELLIGENCE</text>
+
+  <text x="135" y="153" fill="#94A3B8"
+        font-family="Arial" font-size="13">Machine Learning</text>
+
+  <text x="135" y="177" fill="#00E5FF"
+        font-family="monospace" font-size="11">MODE // EXPLORING</text>
+
+  <!-- Card 2 -->
+  <rect x="385" y="80" width="330" height="145"
+        rx="12" fill="#101D31" stroke="#36517A"/>
+
+  <rect x="385" y="80" width="4" height="145"
+        rx="2" fill="url(#purple)"/>
+
+  <circle cx="440" cy="140" r="33"
+          fill="#A78BFA" fill-opacity=".10"
+          stroke="#A78BFA" stroke-width="2"/>
+
+  <path d="M440 117 L457 124 V139
+           C457 151 449 160 440 165
+           C431 160 423 151 423 139 V124 Z"
+        fill="none" stroke="#A78BFA" stroke-width="2"/>
+
+  <text x="490" y="127" fill="#E2E8F0"
+        font-family="Arial" font-size="18"
+        font-weight="bold">CYBERSECURITY</text>
+
+  <text x="490" y="153" fill="#94A3B8"
+        font-family="Arial" font-size="13">Threat Detection</text>
+
+  <text x="490" y="177" fill="#A78BFA"
+        font-family="monospace" font-size="11">MODE // LEARNING</text>
+
+  <!-- Card 3 -->
+  <rect x="740" y="80" width="330" height="145"
+        rx="12" fill="#101D31" stroke="#14532D"/>
+
+  <rect x="740" y="80" width="4" height="145"
+        rx="2" fill="url(#green)"/>
+
+  <circle cx="795" cy="140" r="33"
+          fill="#34D399" fill-opacity=".10"
+          stroke="#34D399" stroke-width="2"/>
+
+  <text x="795" y="147" text-anchor="middle"
+        fill="#34D399" font-family="monospace"
+        font-size="18" font-weight="bold">PY</text>
+
+  <text x="845" y="127" fill="#E2E8F0"
+        font-family="Arial" font-size="18"
+        font-weight="bold">DEVELOPMENT</text>
+
+  <text x="845" y="153" fill="#94A3B8"
+        font-family="Arial" font-size="13">Python &amp; Software</text>
+
+  <text x="845" y="177" fill="#34D399"
+        font-family="monospace" font-size="11">MODE // BUILDING</text>
+
+  <!-- Bottom status bar -->
+  <rect x="30" y="247" width="1040" height="38"
+        rx="8" fill="#07101E" stroke="#263B57"/>
+
+  <circle cx="52" cy="266" r="5" fill="#34D399"/>
+
+  <text x="68" y="271" fill="#34D399"
+        font-family="monospace" font-size="12">
+    SYSTEM STATUS: CONTINUOUSLY LEARNING
+  </text>
+
+  <text x="1045" y="271" text-anchor="end"
+        fill="#64748B" font-family="monospace"
+        font-size="11">BUILD // EXPLORE // INNOVATE</text>
+
+</svg>
